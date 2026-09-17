@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/favGee.png" class="logo" alt="Joshua Media Logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portofolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+      </div>
+      <div class="text-header">
+        <p>FrontEnd Developer and Website Designer</p>
+        <h1>
+          Hello, i'm <span>Heritier</span><br />
+          Ilunga from Tanzania
+        </h1>
+      </div>
+    </div>
+    <!------------------------- About Me---------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/1aaaa.jpg" alt="My own image" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am a passionate FrontEnd developper and Website Designer with a
+              love for creating beautiful and functional digital experiences.
+              With a background in graphic design and a keen eye for detail, I
+              strive to deliver solutions that not only look great but also
+              provide an excellent user experience.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-content active-tabe" id="skills">
+              <ul>
+                <li>
+                  <span>Website Designer</span><br />Designing a professional
+                  website with beautful color,E-commerce website,Education
+                  website,hospital website, etc...
+                </li>
+                <li>
+                  <span>UI/UX</span><br />Designing intuitive and visually
+                  appealing user interfaces
+                </li>
+                <li>
+                  <span>Web Development</span><br />Creating responsive and
+                  interactive websites
+                </li>
+                <li>
+                  <span>Cyber Security</span><br />Protecting digital assets and
+                  ensuring data integrity
+                </li>
+              </ul>
+            </div>
+            <!-- one tabe-content -->
+            <div class="tab-content" id="experience">
+              <ul>
+                <li>
+                  <span>2023 - Current</span><br />
+                  IT at vodafone foundation Instant Network school Tanzania
+                </li>
+                <li>
+                  <span>2017 -2022</span><br />Teacher at Fraternity secondary
+                  school tanzania
+                </li>
+                <li>
+                  <span>2016 - 2017</span><br />Protecting digital assets and
+                  ensuring data integrity at International Rescue Committee
+                  (IRC) Tanzania
+                </li>
+                <li>
+                  <span>2015 - 2016</span><br />Safe healing and Learning Spaces
+                  Facilitator at International Rescue Committee (IRC) Tanzania
+                </li>
+              </ul>
+            </div>
+            <!-- second tab-content -->
+            <div class="tab-content" id="education">
+              <ul>
+                <li>
+                  <span>2015 </span><br />
+                  Diploma of cyber security at Tanzania Institute of Accountancy
+                  (TIA)
+                </li>
+                <li>
+                  <span>2014</span><br />Specialist in Graphic Design at
+                  California Institute of Art
+                </li>
+                <li><span>2013</span><br />Diploma of sciences</li>
+              </ul>
+            </div>
+            <!-- third tab-content -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------------Services-------------------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-laptop-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              I create visually stunning and user-friendly websites that
+              effectively communicate your brand's message and engage your
+              audience. My design process focuses on understanding your unique
+              goals, target audience, and industry to deliver custom solutions
+              that stand out.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fab fa-figma"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              I create intuitive and visually appealing user interfaces that
+              enhance the overall user experience. My designs are focused on
+              usability, accessibility, and aesthetics to ensure that users can
+              easily navigate and interact with digital products.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fas fa-pen-fancy"></i>
+            <h2>Graphic Design</h2>
+            <p>
+              I create captivating and evocative visual stories that leave a
+              striking impression. My designs blend vibrant creativity with
+              timeless elegance, bringing your brand's unique voice to life. . I
+              turn ordinary ideas into extraordinary visual experiences that
+              stand out and resonate deeply.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fas fa-key"></i>
+            <h2>Cyber Security</h2>
+            <p>
+              I help businesses build strong security postures through risk
+              assessment, policy development, and security awareness training.
+              My goal is to create resilient organizations that can prevent,
+              detect, and respond to cyber incidents effectively.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------portfolio---------------------------- -- -->
+    <div id="portofolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/farmers3.jpg" alt="My own image" />
+          </div>
+          <div class="work">
+            <img src="images/farmers2.jpg" alt="My own image" />
+          </div>
+          <div class="work">
+            <img src="images/farmers2 (2).jpg" alt="My own image" />
+          </div>
+          <div class="work">
+            <img src="images/1acbc.jpg" alt="My own image" />
+          </div>
+          <div class="work">
+            <img src="images/MAKENE.jpg" alt="My own image" />
+          </div>
+          <div class="work">
+            <img src="images/chac easter.jpg" alt="My own image" />
+          </div>
+          <div class="work">
+            <img src="images/digital.jpg" alt="My own image" />
+          </div>
+          <div class="work">
+            <img src="images/retouc.jpg" alt="My own image" />
+          </div>
+          <div class="work">
+            <img src="images/Mood weekend.jpg" alt="My own image" />
+          </div>
+          <div class="work">
+            <img src="images/week.jpg" alt="My own image" />
+          </div>
+          <div class="work">
+            <img src="images/friday1.jpg" alt="My own image" />
+          </div>
+          <div class="work">
+            <img src="images/spe f.jpg" alt="My own image" />
+          </div>
+          <div class="work">
+            <img src="images/buss-2.jpg" alt="My own image" />
+          </div>
+          <div class="work">
+            <img src="images/mamadou.jpg" alt="My own image" />
+          </div>
+          <div class="work">
+            <img src="images/mbappe k.jpg" alt="My own image" />
+          </div>
+          <div class="work">
+            <img src="images/mbappe psd.jpg" alt="My own image" />
+          </div>
+          <div class="work">
+            <img src="images/no free design.jpg" alt="My own image" />
+          </div>
+          <div class="work">
+            <img src="images/samia 29.jpg" alt="My own image" />
+          </div>
+          <div class="work">
+            <img src="images/Nyago man.jpg" alt="My own image" />
+          </div>
+          <div class="work">
+            <img src="images/vinicius Jr.jpg" alt="My own image" />
+          </div>
+          <div class="work">
+            <img src="images/CHACHA EVENTS.jpg" alt="My own image" />
+          </div>
+        </div>
+        <a href="https://joshuamedia.space/" class="btn" target="_blank"
+          >See more</a
+        >
+      </div>
+    </div>
+
+    <!-- ----------------- contact------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fas fa-paper-plane"></i
+              ><a href="mailto:" target="_blank">Nzesetz147@gmail.com</a>
+            </p>
+            <p>
+              <i class="fas fa-paper-plane"></i>
+              <a href="mailto:" target="_blank">
+                heritierilunga02@outlook.com</a
+              >
+            </p>
+            <p>
+              <i class="fas fa-phone-square"></i>
+              <a href="callto:">+255 757539470</a>
+            </p>
+            <div class="social-icons">
+              <a
+                href="https://www.facebook.com/alphonse.nzese.9"
+                target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://x.com/Heritierilun?s=09" target="_blank"
+                ><i class="fab fa-twitter-square"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/heritier_ilungaa?igsh=MXdidHVvazFvcGpsag=="
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href=""><i class="fab fa-linkedin"></i></a>
+              <a href="https://wa.me/qr/2VPN6DKV45AAJ1" target="_blank"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a
+                href="https://www.tiktok.com/@faraday127?_r=1&_d=emc38fegc3lh0f&sec_uid=MS4wLjABAAAArRNch8f7Idzkt24KycNK_ox7-hHQXYbt0P7wHVR6_ONQXRCzcN538rlz7oI5Zj6-&share_author_id=6972089616245654534&sharer_language=en&source=h5_m&u_code=dj39477fmi2e5c&timestamp=1781180056&user_id=6972089616245654534&sec_user_id=MS4wLjABAAAArRNch8f7Idzkt24KycNK_ox7-hHQXYbt0P7wHVR6_ONQXRCzcN538rlz7oI5Zj6-&item_author_type=1&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7649673663466161927&share_link_id=5a3b9a6c-0ee1-4592-881f-7f58c9dc93d2&share_app_id=1233&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb4907&social_share_type=5&share_enter_from=settings_page&item_author_type=1&enable_checksum=1"
+                target="_blank"
+                ><i class="fab fa-tiktok"></i
+              ></a>
+            </div>
+            <a
+              href="HERITIER ILUNGA                                                Date.pdf"
+              download
+              class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form action="https://formspree.io/f/xpwboqdz" method="post">
+              <input
+                type="text"
+                name="name"
+                placeholder="Enter your Name"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Leave your message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy Heritier Ilunga. All right Reserved</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-content");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tabe");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tabe");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
